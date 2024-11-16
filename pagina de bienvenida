@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenida - Emprendimiento</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!-- Header con Menú de Navegación -->
+    <header id="header">
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="register.html">Registro</a></li>
+                <li><a href="login.html">Iniciar Sesión</a></li>
+                <li id="user-menu"></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner -->
+    <section id="banner">
+        <h1>Mi Empresa Emprendedora</h1>
+    </section>
+
+    <!-- Sobre la Empresa -->
+    <section id="about">
+        <h2>Sobre la Empresa</h2>
+        <p>Bienvenidos a nuestra página. Somos una empresa dedicada a brindar servicios de calidad en ...</p>
+        <img src="assets/images/logo.png" alt="Logo Empresa">
+    </section>
+
+    <!-- Servicios -->
+    <section id="services">
+        <h2>Servicios</h2>
+        <ul>
+            <li><strong>Servicio 1:</strong> Descripción del servicio 1 - $100</li>
+            <li><strong>Servicio 2:</strong> Descripción del servicio 2 - $200</li>
+            <li><strong>Servicio 3:</strong> Descripción del servicio 3 - $300</li>
+        </ul>
+    </section>
+
+    <!-- Reseñas de Clientes -->
+    <section id="reviews">
+        <h2>Reseñas</h2>
+        <p>"Excelente servicio, muy recomendados!" - Cliente A</p>
+        <p>"Un trato increíble y resultados de calidad." - Cliente B</p>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer>
+        <p>Síguenos en nuestras redes sociales:</p>
+        <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+        </ul>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
